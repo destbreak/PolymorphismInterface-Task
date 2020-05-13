@@ -17,7 +17,8 @@ namespace PolymorphismInterface
             Console.WriteLine("1. Epson");
             Console.WriteLine("2. Canon");
             Console.WriteLine("3. LaserJet");
-            Console.WriteLine("Nomor Printer [1..3] : ");
+            Console.WriteLine();
+            Console.Write("Nomor Printer [1..3] : ");
             int printerNumber = Convert.ToInt32(Console.ReadLine());
 
             if(printerNumber == 1) {
