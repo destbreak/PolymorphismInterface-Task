@@ -6,5 +6,9 @@ using System.Threading.Tasks;
 
 namespace PolymorphismInterface
 {
-
+    public interface IPrinterWindows
+    {
+        void Show();
+        void Print();
+    }
 }
